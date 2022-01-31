@@ -10,7 +10,7 @@ h1 {
   margin-top: 50px;
   font-family: 'Comforter', cursive;
   margin-bottom: 0;
-  color: #345B63;
+  color: #D4ECDD;
   line-height: 2;
 }
 
@@ -28,10 +28,7 @@ h3 {
 }
 
 .top-cont {
-  background-color: #D4ECDD;
-  /* 345B63
-  152D35
-  112031 */
+  background-color: #345B63;
   padding-top: 100px;
   position: relative;
 }
@@ -71,7 +68,8 @@ hr {
 }
 
 .mid-cont {
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
+  background-color: #F7ECDE;
 }
 
 .bot-cont {
@@ -81,7 +79,7 @@ hr {
 }
 
 .profile {
-  margin-top: 100px;
+  padding-top: 100px;
 }
 
 .margin-zero {
@@ -121,9 +119,35 @@ hr {
 }
 
 .footer-link {
+  margin-right: 20px;
+  display: inline-block;
+  color: white;
+}
 
+.asocial {
+  color: #D4ECDD;
+  text-decoration: none;
 }
 
 .btn {
+  color: #EAF6F6;
+  background-color: #345B63;
+  border-radius: 8%;
+  padding: 12px;
+  text-decoration: none;
+  position: relative;
+  top: 30px;
+}
 
+.btn:hover {
+  background-color: #152D35;
+}
+
+.white-p {
+  color: #EAF6F6;
+  background-color: #345B63;
+}
+
+.contact-me {
+  padding-bottom: 100px;
 }
