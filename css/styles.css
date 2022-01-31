@@ -5,7 +5,8 @@ body {
 }
 
 h1 {
-  font-size: 562.5%; /* 100% = 16px; 1em = 16px; */
+  font-size: 562.5%;
+  /* 100% = 16px; 1em = 16px; */
   margin-top: 50px;
   font-family: 'Comforter', cursive;
   margin-bottom: 0;
@@ -23,7 +24,7 @@ h2 {
 
 h3 {
   font-family: 'Montserrat', cursive;
-  color: #152D35;
+  color: #345B63;
 }
 
 .top-cont {
@@ -39,25 +40,51 @@ h3 {
   border-radius: 50%;
   width: 200px;
   height: 200px;
+  margin-bottom: 50px;
 }
 
-.skill-image {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
+.skill-image-left {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-image-right {
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* .clear-par-right {
+  clear: right;
+}
+
+.clear-par-left {
+  clear: left;
+} */
+hr {
+  border: none;
+  border-top: dotted 8px gray;
+  width: 5%;
+  margin-top: 75px;
+  margin-bottom: 75px;
 }
 
 .mid-cont {
+  margin-bottom: 100px;
 }
 
 .bot-cont {
+  background-color: #345B63;
+  margin-bottom: 0;
+  padding: 60px;
 }
 
 .profile {
-
+  margin-top: 100px;
 }
 
-.marginzero {
+.margin-zero {
   margin-bottom: 0;
 }
 
@@ -71,4 +98,32 @@ h3 {
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: left;
+  line-height: 2;
+}
+
+.small-centered-paragraph {
+  width: 24%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h3-with-marin-bot {
+  margin-bottom: 50px;
+}
+
+.footer-link {
+
+}
+
+.btn {
+
 }
