@@ -2,6 +2,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  color: #40514E;
 }
 
 h1 {
@@ -11,6 +12,9 @@ h1 {
   font-family: 'Comforter', cursive;
   margin-bottom: 0;
   color: #D4ECDD;
+}
+
+p {
   line-height: 2;
 }
 
@@ -61,21 +65,21 @@ h3 {
 } */
 hr {
   border: none;
-  border-top: dotted 8px gray;
+  border-top: dotted 8px lightgray;
   width: 5%;
   margin-top: 75px;
   margin-bottom: 75px;
 }
 
 .mid-cont {
-  /* margin-bottom: 100px; */
+  padding-bottom: 100px;
   background-color: #F7ECDE;
 }
 
 .bot-cont {
   background-color: #345B63;
   margin-bottom: 0;
-  padding: 60px;
+  padding: 90px;
 }
 
 .profile {
@@ -90,12 +94,20 @@ hr {
   position: absolute;
   right: 300px;
   top: 50px;
+  width: 100px;
+  height: 100px;
 }
 
 .bot-cloud {
   position: absolute;
   left: 300px;
   bottom: 300px;
+  width: 100px;
+  height: 100px;
+}
+
+.mountain {
+  margin-bottom: 0px;
 }
 
 .skill-row {
@@ -144,7 +156,8 @@ hr {
   padding: 12px;
   text-decoration: none;
   position: relative;
-  top: 30px;
+  top: 50px;
+  font-family: 'Montserrat', cursive;
 }
 
 .btn:hover {
@@ -164,4 +177,21 @@ hr {
   position: fixed;
   top: 10px;
   left: 5px;
+}
+
+.cv-img {
+  width: 50px;
+  height: 50px;
+}
+
+.cv a img:last-child {
+  display: none;
+}
+
+.cv:hover a img:last-child {
+  display: block;
+}
+
+.cv:hover img:first-child {
+  display: none;
 }
