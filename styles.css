@@ -149,7 +149,7 @@ hr {
   text-decoration: none;
 }
 
-.btn {
+/* .btn {
   color: #EAF6F6;
   background-color: #345B63;
   border-radius: 8%;
@@ -158,10 +158,41 @@ hr {
   position: relative;
   top: 50px;
   font-family: 'Montserrat', cursive;
+  display: inline-block;
+  width: 150px;
+  height: 20px;
 }
 
 .btn:hover {
   background-color: #152D35;
+} */
+
+.btn {
+  background: #F7ECDE;
+  background-image: -webkit-linear-gradient(top, #F7ECDE, #345B63);
+  background-image: -moz-linear-gradient(top, #F7ECDE, #345B63);
+  background-image: -ms-linear-gradient(top, #F7ECDE, #345B63);
+  background-image: -o-linear-gradient(top, #F7ECDE, #345B63);
+  background-image: linear-gradient(to bottom, #F7ECDE, #345B63);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #EAF6F6;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: relative;
+  top: 50px;
+}
+
+.btn:hover {
+  background: #345B63;
+  background-image: -webkit-linear-gradient(top, #345B63, #F7ECDE);
+  background-image: -moz-linear-gradient(top, #345B63, #F7ECDE);
+  background-image: -ms-linear-gradient(top, #345B63, #F7ECDE);
+  background-image: -o-linear-gradient(top, #345B63, #F7ECDE);
+  background-image: linear-gradient(to bottom, #345B63, #F7ECDE);
+  text-decoration: none;
 }
 
 .white-p {
