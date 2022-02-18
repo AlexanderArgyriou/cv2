@@ -167,7 +167,7 @@ hr {
   background-color: #152D35;
 } */
 
-.btn {
+.my-btn {
   background: #F7ECDE;
   background-image: -webkit-linear-gradient(top, #F7ECDE, #345B63);
   background-image: -moz-linear-gradient(top, #F7ECDE, #345B63);
@@ -185,7 +185,7 @@ hr {
   top: 50px;
 }
 
-.btn:hover {
+.my-btn:hover {
   background: #345B63;
   background-image: -webkit-linear-gradient(top, #345B63, #F7ECDE);
   background-image: -moz-linear-gradient(top, #345B63, #F7ECDE);
@@ -193,11 +193,13 @@ hr {
   background-image: -o-linear-gradient(top, #345B63, #F7ECDE);
   background-image: linear-gradient(to bottom, #345B63, #F7ECDE);
   text-decoration: none;
+  color: #EAF6F6;
 }
 
 .white-p {
   color: #EAF6F6;
   background-color: #345B63;
+  margin-top: 20px;
 }
 
 .contact-me {
